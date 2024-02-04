@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: "Honk", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+      "MORF" 15,
+      "SHLN" 50;
+      background-color: #f98d08;
+      background-size: contain;
+      color: white;
+}
+
+.kamis{
+    text-align: center;
+    border: 1px solid black;
+    width: 500px;
+    margin-top: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    height: 900px;
+    background: rgba(255, 255, 255, 0.06);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.kamis p{
+    padding-top: 60px;
+    font-size: 40px;
+    line-height: 50px;
+    letter-spacing: 4px;
+}
+
